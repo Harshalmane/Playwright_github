@@ -18,7 +18,7 @@ Scenario 1: Login as a standard user to verify the products page and logout from
 Scenario Description: User logs into the website and verifies all the elements on the products
 page and logs out from the application. This is like a Smoke test.
 
-Testname: TC_01_productPage.test.js
+Testname: TC_01_productPage.spec.js
 ```
  
 ```bash
@@ -27,7 +27,7 @@ Scenario 2: Login as a standard user to complete the checkout workflow
 Scenario Description: User logs into the website and completes the checkout workflow and logs out
 from the application. This is a Happy path test scenario.
 
-Testname: TC_02_checkoutWorkflow.test.js
+Testname: TC_02_checkoutWorkflow.spec.js
 ```
 
 ```bash
@@ -37,7 +37,7 @@ to complete the checkout workflow
 Scenario Description: The application is verified with all the necessary buttons and links on all the pages
 including error messages by the standard user. Then the checkout process is therefore completed by the performance_glitch_user.
 
-Testname: TC_03_checkoutWithSUandPGU.test.js
+Testname: TC_03_checkoutWithSUandPGU.spec.js
 ```
 
 ```bash 
@@ -49,7 +49,7 @@ the firstname, lastname and postal code. Since the “Problem_user” cannot per
 of the lastname error message, user logs off the application.
 Performance_glitch_user log into the application and completes the checkout workflow.
 
-Testname: TC_04_checkoutWithPUandPGU.test.js
+Testname: TC_04_checkoutWithPUandPGU.spec.js
 ```
 
 ```bash 
@@ -62,7 +62,7 @@ Now, Login as a performace_glitch_user and add a product item to the cart and lo
 Standard user is logged in and verifies the product item added by the performance glitch user earlier
 and completes the checkout workflow.
 
-Testname: TC_05_checkoutWithPGUandSU.test.js
+Testname: TC_05_checkoutWithPGUandSU.spec.js
 ```
 
 #### Installation
@@ -139,3 +139,4 @@ Allure-test-report :
 Repo: https://gitlab.com/j1182/playwright-javascript
 Pipelines: https://gitlab.com/j1182/playwright-javascript/-/pipelines
 ```
+
